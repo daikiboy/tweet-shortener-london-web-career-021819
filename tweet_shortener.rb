@@ -14,8 +14,10 @@ def dictionary
 end
 
 def word_substituer(tweet)
-  array = tweet.split("")
-  x = dictionary.keys
-  if array.each == x 
+  x = tweet.split("")
+  dictionary.collect do |key, object|
+  if x.each == key do
     
+  
+
 end
