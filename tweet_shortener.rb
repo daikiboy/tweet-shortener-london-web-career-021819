@@ -19,5 +19,6 @@ def word_substituter(tweet)
  new_array = tweet.split
  dictionary.collect do |key, value|
     if  new_array.include?(key)
+      binding.pry
 end 
 end
