@@ -1,14 +1,16 @@
 def dictionary
-  word{"hello"=> "hi"}
-  word{"to"=> "2"}
-  word{"two"=> "2"}
-  word{"too"=> "2"}
-  word{"for"=> "4"}
-  word{"four"=> "4"}
-  word{"be"=> "b"}
-  word{"you"=> "u"}
-  word{"at"=> "@"}
-  word{"and"=> "&"}
+  dictonary{
+  "hello"=> "hi",
+  "to"=> "2",
+  "two"=> "2",
+  "too"=> "2",
+  "for"=> "4",
+  "four"=> "4",
+  "be"=> "b",
+  "you"=> "u",
+  "at"=> "@",
+  "and"=> "&"
+  }
 end
 
 def word_substituer(tweet)
