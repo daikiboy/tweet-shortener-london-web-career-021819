@@ -14,8 +14,8 @@ def dictionary
 end
 
 def word_substituer(tweet)
-  tweet.split("")
+  array = tweet.split("")
   x = dictionary.keys
-  if tweet.each == x 
+  if array.each == x 
     
 end
