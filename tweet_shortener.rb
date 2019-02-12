@@ -13,4 +13,4 @@ end
 
 def word_substituer(tweet)
   tweet.split("")
-  # Write your code here.
+  tweet.keys # Write your code here.
