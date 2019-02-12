@@ -16,5 +16,5 @@ end
 def word_substituter(tweet)
  new_array = tweet.split("")
  dictionary.collect do |key, value|
-if new_array.
+if new_array
 end
