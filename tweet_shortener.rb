@@ -1,3 +1,5 @@
+require "pry"
+
 def dictionary
   dictionary = {
   "hello"=> "hi",
