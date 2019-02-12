@@ -1,6 +1,6 @@
 def dictionary
-  :word["hello"] = "hi"
-  :word["to"] = "2"
+  word{:hello=> "hi"}
+  :word{:to=> "2"}
   :word["two"] = "2"
   :word["too"] = "2"
   :word["for"] = "4"
