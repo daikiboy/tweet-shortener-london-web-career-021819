@@ -20,6 +20,8 @@ def word_substituter(tweet)
  dictionary.collect do |key, value|
     if  new_array.include?(key)
       new_array[new_array.index(key)] = value
+    else 
+      new_array[new_array.index(key)]
     end
 end 
 end
