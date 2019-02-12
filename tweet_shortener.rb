@@ -29,7 +29,6 @@ end.join(" ")
 end
 
 def bulk_tweet_shortener(tweetsarray)
-  tweetsarray.collect do |word|
    new_array = tweet.split
  new_array.collect do |word|
     if dictionary.keys.include?(word)
@@ -39,4 +38,3 @@ def bulk_tweet_shortener(tweetsarray)
     word
     end
 end.join(" ")
-end
