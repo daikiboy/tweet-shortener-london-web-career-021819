@@ -1,4 +1,4 @@
-def dictionary(word)
+def dictionary
   word["hello"] = "hi"
   word["to"] = "2"
   word["two"] = "2"
@@ -9,6 +9,7 @@ def dictionary(word)
   word["you"] = "u"
   word["at"] = "@"
   word["and"] = "&"
+end 
 
-def word_substituer(tweetstring)
+def word_substituer(tweet)
   # Write your code here.
