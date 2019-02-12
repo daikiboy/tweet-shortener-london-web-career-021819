@@ -13,7 +13,7 @@ def dictionary
   }
 end
 
-def word_substituer(tweet)
+def word_substituter(tweet)
   x = tweet.split("")
   dictionary.collect do |key, object|
   if x.each == key do
