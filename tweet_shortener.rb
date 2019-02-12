@@ -16,6 +16,6 @@ end
 def word_substituter(tweet)
  new_array = tweet.split("")
  dictionary.collect do |key, value|
-new_array[key] = value
+      binding.pry
 end 
 end
