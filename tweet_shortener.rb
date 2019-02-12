@@ -1,4 +1,4 @@
-def dictionary(tobesubst, substitutes)
+def dictionary
   
 
 def word_substituer(tweetstring)
