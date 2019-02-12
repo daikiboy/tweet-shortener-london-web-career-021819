@@ -12,4 +12,4 @@ def dictionary
 end 
 
 def word_substituer(tweet)
-  # Write your code here.
+  tweet.split# Write your code here.
