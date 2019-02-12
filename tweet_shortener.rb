@@ -15,5 +15,6 @@ end
 
 def word_substituer(tweet)
   tweet.split("")
-  
+  x = dictionary.keys
+  if 
 end
