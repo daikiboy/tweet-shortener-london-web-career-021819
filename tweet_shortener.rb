@@ -18,6 +18,6 @@ end
 def word_substituter(tweet)
  new_array = tweet.split
  dictionary.collect do |key, value|
-      binding.pry
+    if  new_array.include?(key)
 end 
 end
